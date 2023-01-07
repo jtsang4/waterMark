@@ -1,10 +1,3 @@
-/*
- * @Author: 52977890@qq.com 
- * @Date: 2019-05-29 10:26:36 
- * @Last Modified by:   wu529778790 
- * @Last Modified time: 2019-05-29 10:26:36 
- */
-
 .watermark {
   .header {
     display: flex;
@@ -23,10 +16,15 @@
     }
     .selectImg {
       margin: 0 10px;
-      #inputimg {
-        display: none;
+
+      :global {
+        #inputimg {
+          display: none;
+        }
       }
+
       .labelimg {
+        cursor: pointer;
         background-color: #108ee9;
         border-color: #108ee9;
         color: #ffffff;
@@ -36,6 +34,7 @@
       }
     }
     .saveImg {
+      cursor: pointer;
       height: 40px;
       width: 90px;
       line-height: 40px;

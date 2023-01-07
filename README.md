@@ -2,4 +2,4 @@
 
 ![](watermark.png)
 
-原作者: [https://shenzjd.com/shenzjd/watermark/](https://shenzjd.com/shenzjd/watermark/)
+原作者: [https://github.com/wu529778790/waterMark](https://github.com/wu529778790/waterMark)
